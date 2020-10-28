@@ -17,10 +17,10 @@ public class AliceAndBobEngine
     public String evaluateAliceOrBob(String input)
     {
   
-      if(input=="Alice")
+      if("Alice".equalsIgnoreCase(input))
       result = "Hello Alice";
       else 
-      if(input=="Bob")
+      if("Bob".equalsIgnoreCase(input))
       result = "Hello Bob";
       else      
       result = "I DON'T KNOW YOU, YOU ARE SCARY"; 
